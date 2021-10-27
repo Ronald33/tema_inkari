@@ -1,0 +1,143 @@
+/*
+Theme Name: RTheme
+Theme URI: https://github.com/Ronald33/rtheme
+Author: Ronald Apaza
+Author URI: https://github.com/Ronald33
+Description: For more information, visit: https://github.com/Ronald33/rtheme
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: rapazave, rtheme
+Text Domain: rtheme
+*/
+/* Menu */
+.rmenu li.current_page_item
+{
+    background-color: #8167a9;
+}
+
+.rmenu li.nav-item.current_page_item:hover a.nav-link
+{
+    color: white !important;
+}
+/* End Menu */
+
+/* Carousel */
+.slider-item
+{
+    text-align: center;
+}
+
+.slider-item .container-title
+{
+    display: inline-block;
+}
+
+.slider-item h2
+{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: 5vw;
+}
+/* End Carousel */
+
+body
+{
+    background-color: #2A2C33;
+}
+
+.bg-centered
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header
+{
+    height: 400px;
+    position: relative;
+}
+
+.page-header-bg
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header-bc
+{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.page-header-bc ol
+{
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.page-section
+{
+    background-color: #5C5F6A;
+    /* background-color: white; */
+}
+
+.page-section-light
+{
+    background-color: white;
+}
+
+/* Equipo de trabajo */
+div.avatar img 
+{
+    width: 220px;
+}
+
+.btn-floating
+{
+    border-radius: 50%;
+}
+
+.btn-floating i
+{
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-email
+{
+    background-color: #1d2025 !important;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.btn-git
+{
+    background-color: #1d2025 !important;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.btn-whatsapp
+{
+    background-color: #1d2025 !important;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+/* Fin de Equipo de trabajo */
+
+/* Contact */
+label.active
+{
+    background-color: #5C5F6A !important;
+}
+
+.md-form textarea.md-textarea+label
+{
+    top: 0;
+}
+/* End Contact */

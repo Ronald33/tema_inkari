@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- mdbootstrap -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <!-- End mdbootstrap -->
+
+    <!-- slick-animation -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css" />
+    <!-- End slick-animation -->
+
+    <link rel="stylesheet" href="slick-theme.css" />
+
+    <style>
+        .slider-item-container .btn { margin: 0; }
+    </style>
+</head>
+<body>
+    <div class="slick-slider">
+        <div class="slider-item slider-fullpage d-flex justify-content-center align-items-center" style="background-image: url(http://placeimg.com/640/360/any);">
+            <div class="container" data-duration-in=".8" data-animation-in="fadeInUp" data-delay-in=".1">
+                <div class="row">
+                    <div class="col-md-6 slider-item-container">
+                        <h2 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1" class="white-text h1-responsive text-center text-md-left">
+                            Titulo 1
+                        </h2>
+                        <hr class="bg-light">
+                        <h4 data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".5" class="white-text h4-responsive d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis at recusandae voluptatibus odio reiciendis ipsum. Et iste, est perspiciatis quibusdam nesciunt quod numquam quis alias blanditiis, earum necessitatibus, ad ab!
+                        </h4>
+                        <div class="text-md-left text-center">
+                            <a data-duration-in=".3" data-animation-in="rotateIn" data-delay-in=".8" class="btn btn-success" href="service.html">
+                                Link 1
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="slider-item slider-fullpage d-flex justify-content-center align-items-center" style="background-image: url(https://placebear.com/640/360);">
+            <div class="container" data-duration-in=".8" data-animation-in="fadeInUp" data-delay-in=".1">
+                <div class="row">
+                    <div class="col-md-6 slider-item-container">
+                        <h2 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1" class="white-text h1-responsive">
+                            Titulo 2
+                        </h2>
+                        <h4 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5" class="white-text h4-responsive d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quasi quidem, commodi nostrum sint praesentium dolores voluptatibus nesciunt aut odit blanditiis natus, ipsa laborum asperiores perspiciatis aliquid non modi? Maxime.
+                        </h4>
+                        <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-success" href="service.html">
+                            Link 2
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="slider-item slider-fullpage d-flex justify-content-center align-items-center" style="background-image: url(https://placebear.com/640/360);">
+            <div class="container" data-duration-in=".8" data-animation-in="fadeInUp" data-delay-in=".1">
+                <div class="row">
+                    <div class="col-md-6 slider-item-container">
+                        <h2 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1" class="white-text h1-responsive">
+                            Titulo 2
+                        </h2>
+                        <h4 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5" class="white-text h4-responsive d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet adipisci minima ut saepe ipsam autem blanditiis recusandae explicabo, maiores neque facilis, quibusdam beatae qui dolores obcaecati ea, sunt dolore!
+                        </h4>
+                        <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8"  class="btn btn-success" href="service.html">
+                            Link 2
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <!-- mdbootstrap -->
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+    <!-- End mdbootstrap -->
+
+    <!-- slick-animation -->
+    <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script type="text/javascript" src="node_modules/slick-animation/slick-animation.min.js"></script>
+    <!-- End slick-animation -->
+
+    <script type="text/javascript">
+        $('.slick-slider').slick({
+            autoplay: true,
+            infinite: true,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>', 
+            dots: true,
+            autoplaySpeed: 5000,
+            // pauseOnFocus: false,
+            // pauseOnHover: false
+        });
+        $('.slick-slider').slickAnimation();
+    </script>
+</body>
+</html>
