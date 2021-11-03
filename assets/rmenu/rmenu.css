@@ -18,7 +18,7 @@
     transition: all 200ms linear;
 }
 
-.rmenu .nav-item:hover a.nav-link { color: #8167a9 !important; }
+.rmenu .nav-item:hover a.nav-link { color: #00C2A9 !important; }
 
 .rmenu .nav-item:after
 {
@@ -27,7 +27,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #8167a9;
+    background-color: #00C2A9;
     bottom: -5px;
     opacity: 0;
     transition: all 200ms linear;

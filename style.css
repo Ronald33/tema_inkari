@@ -16,7 +16,7 @@ Text Domain: rtheme
 /* Menu */
 .rmenu li.current_page_item
 {
-    background-color: #8167a9;
+    background-color: #00C2A9;
 }
 
 .rmenu li.nav-item.current_page_item:hover a.nav-link
